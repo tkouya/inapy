@@ -1,4 +1,4 @@
-# quadruple_eq_np_sc.py: 2次方程式
+# quadratic_eq_np_sc.py: 2次方程式
 import numpy as np
 import scipy as sc
 
