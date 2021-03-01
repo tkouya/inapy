@@ -95,6 +95,7 @@
 - [chapter10/newton1.py](https://github.com/tkouya/inapy/blob/master/chapter10/newton1.py)
 - [chapter10/newton_mdim.py](https://github.com/tkouya/inapy/blob/master/chapter10/newton_mdim.py)
 - [chapter10/roots_poly.py](https://github.com/tkouya/inapy/blob/master/chapter10/roots_poly.py)
+- [chapter10/cardano_ferrari.py](https://github.com/tkouya/inapy/blob/master/chapter10/cardano_ferrari.py)
 
 ### 第11章 補間と最小二乗法 
 
