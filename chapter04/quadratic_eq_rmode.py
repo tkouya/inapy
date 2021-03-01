@@ -40,3 +40,9 @@ print('|x1_rn - x1_rp|/|x1_rn| = ', abs(x1_rn - x1_rp) / abs(x1_rn))
 print('|x1_rn - x1_rm|/|x1_rn| = ', abs(x1_rn - x1_rm) / abs(x1_rn))
 print('|x2_rn - x2_rp|/|x2_rn| = ', abs(x2_rn - x2_rp) / abs(x2_rn))
 print('|x2_rn - x2_rm|/|x2_rn| = ', abs(x2_rn - x2_rm) / abs(x2_rn))
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
