@@ -1,6 +1,6 @@
 # 基本線型計算ベンチマーク
 import numpy as np
-import scipy as spy
+import scipy as sc
 
 # 時間計測用
 import time
@@ -11,8 +11,8 @@ dim = int(str_dim) # 文字列→整数
 
 # 正方行列生成: 乱数行列
 np.random.seed(20190326)
-matrix_a = spy.random.rand(dim, dim)
-matrix_b = spy.random.rand(dim, dim)
+matrix_a = sc.random.rand(dim, dim)
+matrix_b = sc.random.rand(dim, dim)
 
 # 内容チェック
 #print('A = ', matrix_a)
@@ -34,8 +34,8 @@ print('C2 計算時間(秒): ', end_time - start_time)
 print('||C1 - C2|| = ', np.linalg.norm(matrix_c1 - matrix_c2))
 
 # 複素正方行列生成: 乱数行列
-cmatrix_a = spy.random.rand(dim, dim) + 1j * spy.random.rand(dim, dim)
-cmatrix_b = spy.random.rand(dim, dim) + 1j * spy.random.rand(dim, dim)
+cmatrix_a = sc.random.rand(dim, dim) + 1j * sc.random.rand(dim, dim)
+cmatrix_b = sc.random.rand(dim, dim) + 1j * sc.random.rand(dim, dim)
 
 # 行列乗算(1): C1 = A * B
 start_time = time.time()
@@ -51,3 +51,9 @@ print('CC2 計算時間(秒): ', end_time - start_time)
 
 # 検算: ||C1 - C2|| == 0?
 print('||CC1 - CC2|| = ', np.linalg.norm(cmatrix_c1 - cmatrix_c2))
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------

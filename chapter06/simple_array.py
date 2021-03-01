@@ -7,3 +7,9 @@ print('array_b = ', array_b)
 # ベクトル演算ができない
 array_c = 3 * array_a + array_b
 print('array_c = ', array_c)
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
