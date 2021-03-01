@@ -48,6 +48,13 @@
 - [chapter04/quadratic_eq_gmpy2.py](https://github.com/tkouya/inapy/blob/master/chapter04/quadratic_eq_gmpy2.py)
 
 ### 第5章 初等関数の計算
+- [chapter05/horner.py](https://github.com/tkouya/inapy/blob/master/chapter05/horner.py)
+- [chapter05/newton_sqrt.py](https://github.com/tkouya/inapy/blob/master/chapter05/newton_sqrt.py)
+- [chapter05/maclaurin_e.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_e.py)
+- [chapter05/maclaurin_exp.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_exp.py)
+- [chapter05/maclaurin_sin.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_sin.py)
+- [chapter05/maclaurin_exp2.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_exp2.py)
+- [chapter05/maclaurin_log.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_log.py)
 
 ### 第6章 基本線形計算 
 
