@@ -57,7 +57,7 @@
 - [chapter05/maclaurin_log.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_log.py)
 - [chapter05/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter05/tktools.py)
 
-### 第6章 基本線形計算 
+### 第6章 基本線形計算
 - [chapter06/zero_matvec.py](https://github.com/tkouya/inapy/blob/master/chapter06/zero_matvec.py)
 - [chapter06/first_ndarray.py](https://github.com/tkouya/inapy/blob/master/chapter06/first_ndarray.py)
 - [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_matrix.py)
@@ -85,14 +85,22 @@
 - [chapter08/sparse_format_detail.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_format_detail.py)
   
 ### 第9章 行列の固有値・固有ベクトル計算
+- [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py)
+- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py)
+- [chapter09/qr.py](https://github.com/tkouya/inapy/blob/master/chapter09/qr.py)
+- [chapter09/hessenberg.py](https://github.com/tkouya/inapy/blob/master/chapter09/hessenberg.py)
+- [chapter09/eig2.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig2.py)
 
 ### 第10章 非線形方程式の解法
+- [chapter10/newton1.py](https://github.com/tkouya/inapy/blob/master/chapter10/newton1.py)
+- [chapter10/newton_mdim.py](https://github.com/tkouya/inapy/blob/master/chapter10/newton_mdim.py)
+- [chapter10/roots_poly.py](https://github.com/tkouya/inapy/blob/master/chapter10/roots_poly.py)
 
 ### 第11章 補間と最小二乗法 
 
-### 第12章 関数の微分と積分 
+### 第12章 関数の微分と積分
 
-### 第13章 常微分方程式の数値解法 
+### 第13章 常微分方程式の数値解法
 
 ### 第14章 偏微分方程式の数値解法
 
