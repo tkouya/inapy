@@ -9,3 +9,7 @@ print('type(c) = ', type(c))
 a = '1'
 print('type(a) = ', type(a))
 
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------

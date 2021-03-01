@@ -1,4 +1,4 @@
-# quadratic_eq.py: 2次方程式を解く
+# quadratic_eq_c.py: 2次方程式を解く(複素数解対応)
 import cmath # sqrt関数
 
 # 係数入力
@@ -21,4 +21,8 @@ x2 = (-b - cmath.sqrt(d)) / (2 * a)
 print(f'x1 = {x1:25.17e}')
 print(f'x2 = {x2:25.17e}')
 
-	
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
