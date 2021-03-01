@@ -105,6 +105,17 @@
 - [chapter11/spline.py](https://github.com/tkouya/inapy/blob/master/chapter11/spline.py)
 
 ### 第12章 関数の微分と積分
+- [chapter12/num_deriv.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv.py)
+- [chapter12/deriv.py](https://github.com/tkouya/inapy/blob/master/chapter12/deriv.py)
+- [chapter12/auto_diff.py](https://github.com/tkouya/inapy/blob/master/chapter12/auto_diff.py)
+- [chapter12/integration_scipy.py](https://github.com/tkouya/inapy/blob/master/chapter12/integration_scipy.py)
+- [chapter12/integration_simple.py](https://github.com/tkouya/inapy/blob/master/chapter12/integration_simple.py)
+- [chapter12/deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/deriv2.py)
+- [chapter12/auto_diff2.py](https://github.com/tkouya/inapy/blob/master/chapter12/auto_diff2.py)
+- [chapter12/integration_simple2.py](https://github.com/tkouya/inapy/blob/master/chapter12/integration_simple.py)
+- [chapter12/num_deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv2.py)
+- [chapter12/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter12/tktools.py)
+
 
 ### 第13章 常微分方程式の数値解法
 
