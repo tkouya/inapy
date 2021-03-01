@@ -37,6 +37,15 @@
 - [chapter03/sum_3cubes.py](https://github.com/tkouya/inapy/blob/master/chapter03/sum_3cubes.py)
 
 ### 第4章 丸め誤差の評価方法と多倍長精度浮動小数点計計算
+- [chapter04/logistic_function_rmode.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_rmode.py)
+- [chapter04/logistic_function_interval.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_interval.py)
+- [chapter04/logistic_function_mpmath.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_mpmath.py)
+- [chapter04/logistic_function_gmpy2.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_gmpy2.py)
+- [chapter04/bench_matmul_mpmath.py](https://github.com/tkouya/inapy/blob/master/chapter04/bench_matmul_mpmath.py)
+- [chapter04/quadratic_eq_rmode.py](https://github.com/tkouya/inapy/blob/master/chapter04/quadratic_eq_rmode.py)
+- - [chapter04/quadratic_eq_interval.py](https://github.com/tkouya/inapy/blob/master/chapter04/quadratic_eq_interval.py)
+- - [chapter04/quadratic_eq_mpmath.py](https://github.com/tkouya/inapy/blob/master/chapter04/quadratic_eq_mpmath.py)
+- - [chapter04/quadratic_eq_gmpy2.py](https://github.com/tkouya/inapy/blob/master/chapter04/quadratic_eq_gmpy2.py)
 
 ### 第5章 初等関数の計算
 
