@@ -58,14 +58,15 @@ figure, axis = plt.subplots()
 #axis.plot(t, y1)
 #axis.plot(t, y2)
 print(ret.y)
-axis.plot(ret.y[0, :], ret.y[1, :])
+#axis.plot(ret.y[0, :], ret.y[1, :])
+axis.plot(ret_rk45.y[0, :], ret_rk45.y[1, :])
 #axis.plot(ret_rk23.y[0, :], ret_rk23.y[1, :])
-axis.plot(ret_radau.y[0, :], ret_radau.y[1, :])
+#axis.plot(ret_radau.y[0, :], ret_radau.y[1, :])
 #axis.plot(ret_bdf.y[0, :], ret_bdf.y[1, :])
 #axis.plot(ret_lsoda.y[0, :], ret_lsoda.y[1, :])
 
 # x軸，y軸，グラフタイトルをセット
-axis.set(xlabel = 'x', ylabel = 'y', title = 'Roessler Model(mu = ' + str(mu) + ')')
+axis.set(xlabel = 'x', ylabel = 'y', title = 'Roessler Model(mu = ' + str(mu) + '): RK45')
 
 # グリッドを描画
 axis.grid()
@@ -76,3 +77,9 @@ figure.savefig(__file__ + '.png')
 # グラフを画面に描画
 # matplotlib.pyplot.show()
 plt.show()
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
