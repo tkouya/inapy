@@ -1,4 +1,4 @@
-# 基本線型計算ベンチマーク
+# 基本線型計算ベンチマーク(実正方行列乗算と複素正方行列乗算)
 import numpy as np
 import scipy as sc
 
