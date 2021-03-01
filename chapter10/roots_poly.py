@@ -17,3 +17,9 @@ approx_roots = np.roots(poly_coef)
 print('approx_roots = ', approx_roots)
 relerr_approx_roots = np.abs((approx_roots - true_roots) / true_roots)
 print('relerr       = ', relerr_approx_roots)
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
