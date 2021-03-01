@@ -1,8 +1,6 @@
-# pde_wave1d.py ：波動方程式ソルバー
-import numpy as np # NumPy
-import scipy as sp # SciPy
-import scipy.sparse as spsp # Sparse
-import scipy.sparse.linalg as spsplin # Sparse Linear Algebra
+# pde_wave1d.py: 波動方程式ソルバー
+import numpy as np
+import scipy.sparse as scsp
 
 # 境界条件 x in [a, b]
 a, b = 0.0, 1.0
@@ -10,18 +8,29 @@ a, b = 0.0, 1.0
 # t in [t0, t_end]
 t0, t_end = 0.0, 10.0
 
+
 # alpha(t) = u(t, a), beta(t) = u(t, b)
-alpha = lambda t: np.exp(-t / 2.0)
-beta  = lambda t: 1.0
+def alpha(t):
+    return np.exp(-t / 2.0)
+
+
+def beta(t):
+    return 1.0
+
 
 # u0(x) = u(0, x), v0(t) = Du(0, x)
-u0 = lambda x: 0.0
-v0 = lambda x: 0.0
+def u0(x):
+    return 0.0
+
+
+def v0(x):
+    return 0.0
+
 
 # h = delta t = (t_end - t0) / div_t
 # k = delta x = (b - a) / div_x
-div_t = 8
-div_x = 10
+div_t = 1000
+div_x = 50
 h_t = (t_end - t0) / div_t
 h_x = (b - a) / div_x
 
@@ -30,6 +39,12 @@ t = [t0 + h_t * k for k in range(1, div_t + 1)]
 x = [a + h_x * j for j in range(1, div_x)]
 print('t = ', t)
 print('x = ', x)
+
+# lambda = h_x / h_t
+nlambda = h_x / h_t
+print('lambda = ', nlambda)
+if nlambda > 1:
+    print('!!! Not Converge !!!!')
 
 # r2 = (c * h / k)^2
 c = 1.0
@@ -41,10 +56,10 @@ c_upper = [0.0] + [r2] * (dim - 1)
 c_diag = [2.0 * (1 - r2)] * dim
 c_lower = [r2] * (dim - 1) + [0.0]
 c_element = np.array([c_upper, c_diag, c_lower])
-#print('element = ', c_element)
-C = spsp.dia_matrix((c_element, [1, 0, -1]), shape=(dim, dim))
+print('element = \n', c_element)
+C = scsp.dia_matrix((c_element, [1, 0, -1]), shape=(dim, dim))
 
-print('C = '); print(C.toarray())
+print('C = \n', C.toarray())
 
 # u_{k-1}, u_k
 u_km1 = np.array([u0(x[j]) - 2 * h_t * v0(x[j]) for j in range(dim)])
@@ -63,3 +78,9 @@ for k in range(div_t):
 
 # u(t_end, x)
 print('u = ', alpha(t_end), u_kp1, beta(t_end))
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------

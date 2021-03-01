@@ -1,8 +1,8 @@
-# pde_heat1d_implicit.py ：熱方程式ソルバー
-import numpy as np # NumPy
-import scipy as sp # SciPy
-import scipy.sparse as spsp # Sparse
-import scipy.sparse.linalg as spsplin # Sparse Linear Algebra
+# pde_heat1d_implicit.py ：熱方程式ソルバー(陰的解法)
+import numpy as np
+import scipy as sc
+import scipy.sparse as scsp
+import scipy.sparse.linalg as scsplinalg
 
 # 境界条件 x in [a, b]
 a, b = 0.0, 1.0
@@ -10,15 +10,24 @@ a, b = 0.0, 1.0
 # t in [t0, t_end]
 t0, t_end = 0.0, 1.0
 
+
 # ut0(x) = u(0, x), uxa(t) = u(t, a), uxb(t) = u(t, b)
-ut0 = lambda x: 1.0
-uxa = lambda t: 0.0
-uxb = lambda t: 0.0
+def ut0(x):
+    return 1.0
+
+
+def uxa(t):
+    return 0.0
+
+
+def uxb(t):
+    return 0.0
+
 
 # h = delta t = (t_end - t0) / div_t
 # k = delta x = (b - a) / div_x
 div_t = 100
-div_x = 10
+div_x = 5
 h_t = (t_end - t0) / div_t
 h_x = (b - a) / div_x
 
@@ -30,22 +39,21 @@ print('x = ', x)
 
 # s = h_t / h_x^2
 s = h_t / (h_x ** 2)
-
-# 三重対角行列生成
+# 三重対角行列生成(**)
 dim = div_x - 2
 e_upper = [0.0] + [-s] * (dim - 1)
 e_diag  = [2.0 * s + 1.0] * dim
 e_lower = [-s] * (dim - 1) + [0.0]
 e_element = np.array([e_upper, e_diag, e_lower])
-#print('element = ', e_element)
-E = spsp.dia_matrix((e_element, [1, 0, -1]), shape=(dim, dim))
+print('element = ', e_element)
+E = scsp.dia_matrix((e_element, [1, 0, -1]), shape=(dim, dim))
 
 print('s = ', s)
-print('E = '); print(E.toarray())
+print('E = \n', E.toarray())
 
 # LU分解
-E_csc = E.tocsc() # SuperLUはCSC形式のみ
-lu_E = spsplin.splu(E_csc) # LU分解
+E_csc = E.tocsc()  # SuperLUはCSC形式のみ
+lu_E = scsplinalg.splu(E_csc)  # LU分解
 # u_k
 u_k = np.array([ut0(x[j]) for j in range(dim)])
 print('u_k   = ', u_k)
@@ -57,3 +65,9 @@ for k in range(div_t):
 
 # u(t_end, x)
 print('u = ', uxa(t_end), u_kp1, uxb(t_end))
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
