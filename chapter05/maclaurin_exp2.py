@@ -6,6 +6,13 @@ from tktools import relerr  # relerr関数
 
 # Maclaurin展開に基づくexp(x) : リダクションなし
 def maclaurin_exp(x, rtol, atol, max_deg):
+
+    # x = 0
+    if x == 0.0:
+        return 1.0, 0
+    if x == 1.0:
+        return 2.7182818284590452353602874713527, 0
+
     old_ret = 1.0
     ret = old_ret
     xn = 1.0
@@ -23,6 +30,13 @@ def maclaurin_exp(x, rtol, atol, max_deg):
 
 # Maclaurin展開に基づくexp(x) : リダクションあり
 def maclaurin_exp_m1(x, rtol, atol, max_deg):
+
+    # x = 0
+    if x == 0.0:
+        return 1.0, 0
+    if x == 1.0:
+        return 2.7182818284590452353602874713527, 0
+
     org_x = x
     x = math.fabs(x)
     int_x = math.floor(x)

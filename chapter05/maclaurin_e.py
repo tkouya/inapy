@@ -14,7 +14,14 @@ def maclaurin_e(m):
 
 	return ret
 
+
 # 項数mとhat(e_m)
 print('  m           hat(e_m)           ')
 for m in range(1, 10):
     print(f'{m:3d} {maclaurin_e(m):25.17e}')
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
