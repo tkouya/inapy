@@ -98,6 +98,11 @@
 - [chapter10/cardano_ferrari.py](https://github.com/tkouya/inapy/blob/master/chapter10/cardano_ferrari.py)
 
 ### 第11章 補間と最小二乗法 
+- [chapter11/interpol.py](https://github.com/tkouya/inapy/blob/master/chapter11/interpol.py)
+- [chapter11/neville.py](https://github.com/tkouya/inapy/blob/master/chapter11/neville.py)
+- [chapter11/least_square_fit.py](https://github.com/tkouya/inapy/blob/master/chapter11/least_square_fit.py)
+- [chapter11/test_least_sq.csv](https://github.com/tkouya/inapy/blob/master/chapter11/test_least_sq.csv)
+- [chapter11/spline.py](https://github.com/tkouya/inapy/blob/master/chapter11/spline.py)
 
 ### 第12章 関数の微分と積分
 
