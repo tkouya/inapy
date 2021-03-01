@@ -113,7 +113,7 @@
 - [chapter12/deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/deriv2.py)
 - [chapter12/auto_diff2.py](https://github.com/tkouya/inapy/blob/master/chapter12/auto_diff2.py)
 - [chapter12/integration_simple2.py](https://github.com/tkouya/inapy/blob/master/chapter12/integration_simple.py)
-- [chapter12/num_deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv2.py)
+- [chapter12/num_deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv2.py) 演習問題1の解答
 - [chapter12/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter12/tktools.py)
 
 
