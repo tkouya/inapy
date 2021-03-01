@@ -3,7 +3,7 @@
 ## Introduction to Numerical Analysis for precise computation with Python (iNAPy)
 ### Tomonori Kouya
 
-2021年3月発売の「Python数値計算プログラミング」（講談社サイエンティフィク）サポートページです。
+2021年3月発売の「Python数値計算プログラミング」（講談社）サポートページです。
 
 本書で解説している全てのPytnonスクリプトを公開しています。本文のミスなどはここに書き足しておくようにします。
 
