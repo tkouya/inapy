@@ -116,8 +116,15 @@
 - [chapter12/num_deriv2.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv2.py) 演習問題1の解答
 - [chapter12/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter12/tktools.py)
 
-
 ### 第13章 常微分方程式の数値解法
+- [chapter13/ode_ivp.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_ivp.py)
+- [chapter13/ode_ivp_fixed_step.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_ivp_fixed_step.py)
+- [chapter13/ode_linear.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_linear.py) 固くない線形常微分方程式と硬い線形常微分方程式
+- [chapter13/ode_bvp_linear.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_bvp_linear.py)
+- [chapter13/ode_bvp.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_bvp.py)
+- [chapter13/ode_ivp_fixed_step_graph.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_ivp_fixed_step_graph.py)
+- [chapter13/ode_roessler.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_roessler.py)
+
 
 ### 第14章 偏微分方程式の数値解法
 
