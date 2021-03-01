@@ -67,11 +67,15 @@
 - [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py)
 - [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
 
-
-
-
 ### 第7章 連立一次方程式の解法1 --- 直接法
-
+- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py)
+- [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算
+- [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py)
+- [chapter07/linear_eq_cholesky.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky.py)
+- [chapter07/linear_eq_cond_hilbert.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cond_hilbert.py)
+- [chapter07/lu2.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu2.py)
+- [chapter07/linear_eq_cholesky2.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky2.py)
+  
 ### 第8章 連立一次方程式の解法2 --- 疎行列と反復法
 
 ### 第9章 行列の固有値・固有ベクトル計算
