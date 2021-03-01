@@ -55,8 +55,20 @@
 - [chapter05/maclaurin_sin.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_sin.py)
 - [chapter05/maclaurin_exp2.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_exp2.py)
 - [chapter05/maclaurin_log.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_log.py)
+- [chapter05/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter05/tktools.py)
 
 ### 第6章 基本線形計算 
+- [chapter06/zero_matvec.py](https://github.com/tkouya/inapy/blob/master/chapter06/zero_matvec.py)
+- [chapter06/first_ndarray.py](https://github.com/tkouya/inapy/blob/master/chapter06/first_ndarray.py)
+- [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py)
+- [chapter06/basic_linear.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py) ベクトルノルム・行列ノルム
+- [chapter06/relerr_norm.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm.py)
+- [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py)
+- [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py)
+- [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
+
+
+
 
 ### 第7章 連立一次方程式の解法1 --- 直接法
 
