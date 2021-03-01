@@ -1,5 +1,5 @@
-# 10進浮動小数点演算例
-import decimal as dec # 10進多倍長精度演算
+# test_decimal.py: 10進浮動小数点演算例
+import decimal as dec  # 10進多倍長精度演算
 
 # 計算コンテキスト確認
 print('current decimal context = ', dec.getcontext())
@@ -36,3 +36,8 @@ shaku1 = dec.Decimal('10.000') / dec.Decimal('33.000')
 ken1 = dec.Decimal('6.0000') * shaku1
 tsubo1 = ken1 * ken1
 print(f'1 Tsubo = {tsubo1:10.4e} m^2')
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
