@@ -1,26 +1,28 @@
 # eig.py: 行列の固有値と固有ベクトル
 import numpy as np
-import scipy as spy
-import scipy.linalg as slinalg
+import scipy.linalg as sclinalg
 
-# 行列サイズ
-str_dim = input('正方行列サイズ dim = ')
-dim = int(str_dim) # 文字列→整数
-
-# 乱数行列をAとして与える
-np.random.seed(20190515)
-mat_a = spy.random.rand(dim, dim)
+# 行列を与える
+mat_a = np.array([[2, 2], [1, 1]])
 
 # 行列確認
-print('A = ', mat_a)
+print('A = \n', mat_a)
 
 # 固有値と固有ベクトル
-eigval, ev = slinalg.eig(mat_a)
-ev = ev.T
+eigval, ev = sclinalg.eig(mat_a)
+ev = ev.T  # 転置
 print('Eigenvalues = ', eigval)
-print('Eigenvectors = ', ev)
+print('Eigenvectors = \n', ev)
 
-# A * v = lambda * v ?
-for i in range(0, eigval.size) :
-	print('|| A * v - lambda[', i, '] * v||_2 = ', slinalg.norm(mat_a @ ev[i].T - eigval[i] * ev[i]))
+# 検算 ||A * v - lambda * v|| == 0 ?
+for i in range(0, eigval.size):
+    print(
+        '|| A * v - lambda[', i, '] * v||_2 = ',
+        sclinalg.norm(mat_a @ ev[i] - eigval[i] * ev[i])
+    )
 
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
