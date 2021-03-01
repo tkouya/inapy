@@ -125,9 +125,11 @@
 - [chapter13/ode_ivp_fixed_step_graph.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_ivp_fixed_step_graph.py)
 - [chapter13/ode_roessler.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_roessler.py)
 
-
 ### 第14章 偏微分方程式の数値解法
-
+- [chapter14/pde_wave1d.py](https://github.com/tkouya/inapy/blob/master/chapter14/pde_wave1d.py)
+- [chapter14/pde_heat1d.py](https://github.com/tkouya/inapy/blob/master/chapter14/pde_heat1d.py)
+- [chapter14/pde_heat1d_implicit.py](https://github.com/tkouya/inapy/blob/master/chapter14/pde_heat1d_implicit.py) 熱方程式の陰的解法
+- [chapter14/pde_poisson.py](https://github.com/tkouya/inapy/blob/master/chapter14/pde_poisson.py)
 
 <!--
 # -------------------------------------
