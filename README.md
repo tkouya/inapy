@@ -8,8 +8,8 @@
 本書で解説している全てのPytnonスクリプトを公開しています。
 
 ### 第1章
-chapter01/integration.py
-chapter01/integration.c
+- chapter01/integration.py [https://github.com/tkouya/inapy/chapter01/integration.py]
+- chapter01/integration.c [chapter01/integration.c]
 
 
 <!--
