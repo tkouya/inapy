@@ -77,7 +77,13 @@
 - [chapter07/linear_eq_cholesky2.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky2.py)
   
 ### 第8章 連立一次方程式の解法2 --- 疎行列と反復法
-
+- [chapter08/sparse_format.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_format.py)
+- [chapter08/sparse_matrix_lu.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_matrix_lu.py)
+- [chapter08/jacobi_iteration_sparse.py](https://github.com/tkouya/inapy/blob/master/chapter08/jacobi_iteration_sparse.py)
+- [chapter08/cg_mpmath.py](https://github.com/tkouya/inapy/blob/master/chapter08/cg_mpmath.py)
+- [chapter08/bicgstab_sample.py](https://github.com/tkouya/inapy/blob/master/chapter08/bicgstab_sample.py)
+- [chapter08/sparse_format_detail.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_format_detail.py)
+  
 ### 第9章 行列の固有値・固有ベクトル計算
 
 ### 第10章 非線形方程式の解法
