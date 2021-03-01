@@ -60,7 +60,7 @@
 ### 第6章 基本線形計算 
 - [chapter06/zero_matvec.py](https://github.com/tkouya/inapy/blob/master/chapter06/zero_matvec.py)
 - [chapter06/first_ndarray.py](https://github.com/tkouya/inapy/blob/master/chapter06/first_ndarray.py)
-- [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py)
+- [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_matrix.py)
 - [chapter06/basic_linear.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py) ベクトルノルム・行列ノルム
 - [chapter06/relerr_norm.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm.py)
 - [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py)
