@@ -27,3 +27,9 @@ def relerr(approx, true_val):
             relerr /= np.abs(true_val)
 
     return relerr
+
+
+# -------------------------------------
+# Copyright (c) 2021 Tomonori Kouya
+# All rights reserved.
+# -------------------------------------
