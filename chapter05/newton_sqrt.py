@@ -36,7 +36,7 @@ print('newton   (', x, ') = ', newton_val, ', Iter.Times = ', iter_times)
 print('Relative Error     = ', math.fabs((true_val - newton_val) / true_val))
 
 # x = 123
-x = 12.0
+x = 123.0 # 2022-05-09 fixed!
 true_val = math.sqrt(x)
 newton_val, iter_times = newton_sqrt(x, rel_tol, abs_tol)
 print('math.sqrt(', x, ') = ', true_val)
