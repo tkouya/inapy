@@ -71,7 +71,7 @@ dim = int(str_dim)  # 文字列→整数
 
 # 乱数行列をAとして与える
 np.random.seed(20190515)
-mat_a = np.random.rand(dim, dim)
+mat_a = sc.random.rand(dim, dim)
 # 対称行列化
 for i in range(dim):
     for j in range(i):
@@ -91,14 +91,14 @@ for i in range(0, eigval.size):
     print('|| A * v - lambda[', i, '] * v||_2 = ', sclinalg.norm(mat_a @ ev[i].T - eigval[i] * ev[i]))
 
 # べき乗法実行
-max_ev = np.random.rand(dim)
+max_ev = sc.random.rand(dim)
 itimes, max_eig, max_ev = power_eig(max_ev, mat_a, dim, 1.0e-13)
 print('iterative times = ', itimes)
 print('max_eig = ', max_eig)
 print('max_ev = ', max_ev)
 
 # 逆べき乗法実行
-min_ev = np.random.rand(dim)
+min_ev = sc.random.rand(dim)
 itimes, min_eig, min_ev = inv_power_eig(min_ev, mat_a, dim, 1.0e-13)
 print('iterative times = ', itimes)
 print('min_eig = ', min_eig)
