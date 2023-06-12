@@ -67,13 +67,13 @@
 - [chapter06/basic_linear.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py) ベクトルノルム・行列ノルム
 - [chapter06/relerr_norm.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm.py)
 - [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_old_scipy.py))
-- [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py)
+- [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex_old_scipy.py))
 - [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
 
 ### 第7章 連立一次方程式の解法1 --- 直接法
-- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py)
-- [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算
-- [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py)
+- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py)([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/lu_old_scipy.py))
+- [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算 ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/inv_old_scipy.py))
+- [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_old_scipy.py))
 - [chapter07/linear_eq_cholesky.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky.py)
 - [chapter07/linear_eq_cond_hilbert.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cond_hilbert.py)
 - [chapter07/lu2.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu2.py)
@@ -88,8 +88,8 @@
 - [chapter08/sparse_format_detail.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_format_detail.py)
   
 ### 第9章 行列の固有値・固有ベクトル計算
-- [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py)
-- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py)
+- [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter09/eig_old_scipy.py))
+- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py) [旧版](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig_old_scipy.py))
 - [chapter09/qr.py](https://github.com/tkouya/inapy/blob/master/chapter09/qr.py)
 - [chapter09/hessenberg.py](https://github.com/tkouya/inapy/blob/master/chapter09/hessenberg.py)
 - [chapter09/eig2.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig2.py)
