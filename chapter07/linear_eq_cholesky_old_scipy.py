@@ -11,7 +11,7 @@ dim = int(str_dim)  # 文字列→整数
 
 # 対称乱数行列をAとして与える
 np.random.seed(20200529)
-mat_a1 = np.random.rand(dim, dim)
+mat_a1 = sc.random.rand(dim, dim)
 # 正定値対称化: A = A1 * A1^T
 mat_a = mat_a1 @ mat_a1.T
 

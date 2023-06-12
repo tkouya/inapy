@@ -11,7 +11,7 @@ dim = int(str_dim)  # 文字列→整数
 
 # 乱数行列をAとして与える
 np.random.seed(20200529)
-mat_a = np.random.rand(dim, dim)
+mat_a = sc.random.rand(dim, dim)
 
 # x = [1 2 ... dim]
 vec_true_x = np.arange(1, dim + 1)

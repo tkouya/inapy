@@ -9,11 +9,11 @@ dim = int(str_dim)  # 文字列→整数
 
 # 乱数行列をAとして与える
 np.random.seed(20200529)
-mat_a = sc.random.rand(dim, dim)
+mat_a = np.random.rand(dim, dim)
 print('A = \n', mat_a)
 
 # 乱数ベクトルをtrue_xとする
-true_x = sc.random.rand(dim)
+true_x = np.random.rand(dim)
 
 # LU分解(1)
 P, L, U = sclinalg.lu(mat_a)  # PLU = A
