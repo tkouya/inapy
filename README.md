@@ -66,7 +66,7 @@
 - [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_matrix.py)
 - [chapter06/basic_linear.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py) ベクトルノルム・行列ノルム
 - [chapter06/relerr_norm.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm.py)
-- [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py)
+- [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py) (旧版 (https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_old_scipy.py)
 - [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py)
 - [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
 
