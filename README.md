@@ -7,6 +7,9 @@
 
 本書で解説している全てのPytnonスクリプトを公開しています。本文のミスなどはここに書き足しておくようにします。
 
+### 更新情報が
+- 2023-06-12 (Mon) SciPyからrandom.rand関数が削除されたことに伴い，NumPyのrandom.rand関数に書き換えた。
+
 ### 第1章 数値計算と数学ソフトウェア
 - [chapter01/integration.py](https://github.com/tkouya/inapy/blob/master/chapter01/integration.py)
 - [chapter01/integration.c](https://github.com/tkouya/inapy/blob/master/chapter01/integration.c)
