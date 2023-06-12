@@ -2,17 +2,17 @@
 import numpy as np
 import scipy as sc
 
-# 時間計測用10
+# 時間計測用
 import time
 
 # 行列サイズ
 str_dim = input('正方行列サイズ dim = ')
 dim = int(str_dim) # 文字列→整数
 
-# 正方行列生成: 乱数行列 (NumPy使用)
+# 正方行列生成: 乱数行列 ()
 np.random.seed(20190326)
-matrix_a = np.random.rand(dim, dim)
-matrix_b = np.random.rand(dim, dim)
+matrix_a = sc.random.rand(dim, dim)
+matrix_b = sc.random.rand(dim, dim)
 
 # 内容チェック
 #print('A = ', matrix_a)
