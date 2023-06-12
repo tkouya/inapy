@@ -11,8 +11,8 @@ dim = int(str_dim) # 文字列→整数
 
 # 正方行列生成: 乱数行列
 np.random.seed(20190326)
-matrix_a = sc.random.rand(dim, dim)
-matrix_b = sc.random.rand(dim, dim)
+matrix_a = np.random.rand(dim, dim)
+matrix_b = np.random.rand(dim, dim)
 
 # 内容チェック
 #print('A = ', matrix_a)
@@ -34,8 +34,8 @@ print('C2 計算時間(秒): ', end_time - start_time)
 print('||C1 - C2|| = ', np.linalg.norm(matrix_c1 - matrix_c2))
 
 # 複素正方行列生成: 乱数行列
-cmatrix_a = sc.random.rand(dim, dim) + 1j * sc.random.rand(dim, dim)
-cmatrix_b = sc.random.rand(dim, dim) + 1j * sc.random.rand(dim, dim)
+cmatrix_a = np.random.rand(dim, dim) + 1j * np.random.rand(dim, dim)
+cmatrix_b = np.random.rand(dim, dim) + 1j * np.random.rand(dim, dim)
 
 # 行列乗算(1): C1 = A * B
 start_time = time.time()
