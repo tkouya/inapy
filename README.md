@@ -89,7 +89,7 @@
   
 ### 第9章 行列の固有値・固有ベクトル計算
 - [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter09/eig_old_scipy.py))
-- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py) [旧版](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig_old_scipy.py))
+- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig_old_scipy.py))
 - [chapter09/qr.py](https://github.com/tkouya/inapy/blob/master/chapter09/qr.py)
 - [chapter09/hessenberg.py](https://github.com/tkouya/inapy/blob/master/chapter09/hessenberg.py)
 - [chapter09/eig2.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig2.py)
