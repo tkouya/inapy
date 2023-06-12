@@ -71,7 +71,7 @@
 - [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
 
 ### 第7章 連立一次方程式の解法1 --- 直接法
-- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py)([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/lu_old_scipy.py))
+- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/lu_old_scipy.py))
 - [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算 ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/inv_old_scipy.py))
 - [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_old_scipy.py))
 - [chapter07/linear_eq_cholesky.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky.py)
