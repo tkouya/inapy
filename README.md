@@ -1,14 +1,24 @@
 # 「Python数値計算プログラミング」サポートページ
 ## 幸谷 智紀
-## Introduction to Numerical Analysis for precise computation with Python (iNAPy)
+## Introduction to Numerical Analysis for precise computation with Python 2nd Ed. (iNAPy)
 ### Tomonori Kouya
 
-2021年3月発売の「Python数値計算プログラミング」（講談社）サポートページです。
+2026年8月発売の「Python数値計算プログラミング 改訂第2版」（講談社）サポートページです。
 
 本書で解説している全てのPytnonスクリプトを公開しています。本文のミスなどはここに書き足しておくようにします。
 
 ### 更新情報
+- 2026-08-21 (Fri) 第2版に合わせてスクリプトを一部差し換え・書き換え。
 - 2023-06-12 (Mon) SciPyからrandom.rand関数が削除されたことに伴い，NumPyのrandom.rand関数に書き換えた。
+
+### 第0章 数値計算と数学ソフトウェア
+- [chapter00/script01.py](https://github.com/tkouya/inapy/blob/master/chapter00/script01.py)
+- [chapter00/script02.py](https://github.com/tkouya/inapy/blob/master/chapter00/script02.py)
+- [chapter00/script03.py](https://github.com/tkouya/inapy/blob/master/chapter00/script03.py)
+- [chapter00/script04.py](https://github.com/tkouya/inapy/blob/master/chapter00/script04.py)
+- [chapter00/script05.py](https://github.com/tkouya/inapy/blob/master/chapter00/script05.py)
+- [chapter00/script06.py](https://github.com/tkouya/inapy/blob/master/chapter00/script06.py)
+- [chapter00/util.py](https://github.com/tkouya/inapy/blob/master/chapter00/util.py)
 
 ### 第1章 数値計算と数学ソフトウェア
 - [chapter01/integration.py](https://github.com/tkouya/inapy/blob/master/chapter01/integration.py)
@@ -30,6 +40,8 @@
 - [chapter03/np_sc_calc.py](https://github.com/tkouya/inapy/blob/master/chapter03/np_sc_calc.py)
 - [chapter03/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter03/tktools.py)
 - [chapter03/logistic_function.py](https://github.com/tkouya/inapy/blob/master/chapter03/logistic_function.py)
+- [chapter03/np_float_types.py](https://github.com/tkouya/inapy/blob/master/chapter03/np_float_types.py)
+- [chapter03/np_float_cast.py](https://github.com/tkouya/inapy/blob/master/chapter03/np_float_cast.py)
 - [chapter03/myname_print.py](https://github.com/tkouya/inapy/blob/master/chapter03/myname_print.py)
 - [chapter03/quadratic_eq.py](https://github.com/tkouya/inapy/blob/master/chapter03/quadratic_eq.py)
 - [chapter03/quadratic_eq_c.py](https://github.com/tkouya/inapy/blob/master/chapter03/quadratic_eq_c.py)
@@ -40,6 +52,8 @@
 - [chapter03/sum_3cubes.py](https://github.com/tkouya/inapy/blob/master/chapter03/sum_3cubes.py)
 
 ### 第4章 丸め誤差の評価方法と多倍長精度浮動小数点計計算
+- [chapter04/rmode.py](https://github.com/tkouya/inapy/blob/master/chapter04/rmode.py)
+- [chapter04/fpcr_round_aarch64.c](https://github.com/tkouya/inapy/blob/master/chapter04/fpcr_round_aarch64.c) Arm Linux用の丸めモード操作関数(rmode.pyで利用)
 - [chapter04/logistic_function_rmode.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_rmode.py)
 - [chapter04/logistic_function_interval.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_interval.py)
 - [chapter04/logistic_function_mpmath.py](https://github.com/tkouya/inapy/blob/master/chapter04/logistic_function_mpmath.py)
@@ -59,6 +73,11 @@
 - [chapter05/maclaurin_exp2.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_exp2.py)
 - [chapter05/maclaurin_log.py](https://github.com/tkouya/inapy/blob/master/chapter05/maclaurin_log.py)
 - [chapter05/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter05/tktools.py)
+- [chapter05/newton_cbrt.py](https://github.com/tkouya/inapy/blob/master/chapter05/newton_cbrt.py) 演習問題1
+- [chapter05/hyperbolic_sincos.py](https://github.com/tkouya/inapy/blob/master/chapter05/hyperbolic_sincos.py) 演習問題2
+- [chapter05/complex_exp.py](https://github.com/tkouya/inapy/blob/master/chapter05/complex_exp.py) 演習問題3
+
+
 
 ### 第6章 基本線形計算
 - [chapter06/zero_matvec.py](https://github.com/tkouya/inapy/blob/master/chapter06/zero_matvec.py)
@@ -66,14 +85,15 @@
 - [chapter06/basic_matrix.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_matrix.py)
 - [chapter06/basic_linear.py](https://github.com/tkouya/inapy/blob/master/chapter06/basic_linear.py) ベクトルノルム・行列ノルム
 - [chapter06/relerr_norm.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm.py)
-- [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_old_scipy.py))
-- [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex_old_scipy.py))
+- [chapter06/bench_matmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul.py)
+- [chapter06/bench_matmul_complex.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_matmul_complex.py)
 - [chapter06/relerr_norm_complete.py](https://github.com/tkouya/inapy/blob/master/chapter06/relerr_norm_complete.py)
+- [chapter06/bench_mymatmul.py](https://github.com/tkouya/inapy/blob/master/chapter06/bench_mymatmul.py) 演習問題2の自作行列乗算
 
 ### 第7章 連立一次方程式の解法1 --- 直接法
-- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/lu_old_scipy.py))
-- [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算 ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/inv_old_scipy.py))
-- [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_old_scipy.py))
+- [chapter07/lu.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu.py)
+- [chapter07/inv.py](https://github.com/tkouya/inapy/blob/master/chapter07/inv.py) 逆行列の計算
+- [chapter07/linear_eq.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq.py)
 - [chapter07/linear_eq_cholesky.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cholesky.py)
 - [chapter07/linear_eq_cond_hilbert.py](https://github.com/tkouya/inapy/blob/master/chapter07/linear_eq_cond_hilbert.py)
 - [chapter07/lu2.py](https://github.com/tkouya/inapy/blob/master/chapter07/lu2.py)
@@ -88,11 +108,12 @@
 - [chapter08/sparse_format_detail.py](https://github.com/tkouya/inapy/blob/master/chapter08/sparse_format_detail.py)
   
 ### 第9章 行列の固有値・固有ベクトル計算
-- [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter09/eig_old_scipy.py))
-- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py) ([旧版](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig_old_scipy.py))
+- [chapter09/eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig.py)
+- [chapter09/power_eig.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig.py)
 - [chapter09/qr.py](https://github.com/tkouya/inapy/blob/master/chapter09/qr.py)
 - [chapter09/hessenberg.py](https://github.com/tkouya/inapy/blob/master/chapter09/hessenberg.py)
 - [chapter09/eig2.py](https://github.com/tkouya/inapy/blob/master/chapter09/eig2.py)
+- [chapter09/power_eig_pro1.py](https://github.com/tkouya/inapy/blob/master/chapter09/power_eig_pro1.py) 演習問題1の解答
 
 ### 第10章 非線形方程式の解法
 - [chapter10/newton1.py](https://github.com/tkouya/inapy/blob/master/chapter10/newton1.py)
@@ -106,6 +127,7 @@
 - [chapter11/least_square_fit.py](https://github.com/tkouya/inapy/blob/master/chapter11/least_square_fit.py)
 - [chapter11/test_least_sq.csv](https://github.com/tkouya/inapy/blob/master/chapter11/test_least_sq.csv)
 - [chapter11/spline.py](https://github.com/tkouya/inapy/blob/master/chapter11/spline.py)
+- [chapter11/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter11/tktools.py)
 
 ### 第12章 関数の微分と積分
 - [chapter12/num_deriv.py](https://github.com/tkouya/inapy/blob/master/chapter12/num_deriv.py)
@@ -127,6 +149,7 @@
 - [chapter13/ode_bvp.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_bvp.py)
 - [chapter13/ode_ivp_fixed_step_graph.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_ivp_fixed_step_graph.py)
 - [chapter13/ode_roessler.py](https://github.com/tkouya/inapy/blob/master/chapter13/ode_roessler.py)
+- [chapter13/tktools.py](https://github.com/tkouya/inapy/blob/master/chapter13/tktools.py)
 
 ### 第14章 偏微分方程式の数値解法
 - [chapter14/pde_wave1d.py](https://github.com/tkouya/inapy/blob/master/chapter14/pde_wave1d.py)
@@ -136,7 +159,7 @@
 
 <!--
 # -------------------------------------
-# Copyright (c) 2021 Tomonori Kouya
+# Copyright (c) 2026 Tomonori Kouya
 # All rights reserved.
 # -------------------------------------
 -->
